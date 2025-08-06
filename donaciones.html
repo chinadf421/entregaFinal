@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html> <html lang="es">
+ <head> <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donaciones – Donate App</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="header">
+    <img src="img/header.png" alt="Encabezado" class="imagen-encabezado">
+</div>
+  <div class="menu">
+    <nav class="nav-menu">
+     <a href="inicio.html">Inicio</a> 
+     <a href="quienes.html">¿Quiénes somos?</a>
+     <a href="donaciones.html" class="activo">Donaciones</a>
+     <a href="registro.html">Registrarse</a>
+    </nav>
+</div>
+<div class="cuerpo">
+  <section class="hero">
+    <div class="hero-texto">
+      <h1>Realiza una donación</h1>
+      <p>Completa el formulario y nos contactaremos contigo.</p>
+      <form id="formDonacion" class="forumlario">
+        <label for="donacionEmail">Email de usuario:</label>
+        <input type="email" id="donacionEmail" name="donacionEmail" required>
+        </label>
+  <label for="categoria"> Categoria de la donacion</label>
+     <select id="categoria" name="categoria" required>
+      <option value="">Selecciona una opción</option>
+      <option value="Ropa">Ropa</option>
+      <option value="Alimentos">Alimentos</option>
+      <option value="Juguetes">Juguetes</option>
+      <option value="Electrónica">Electrónica</option>
+      <option value="Otros">Otros</option>
+     </select>
+     
+<label for="descripcion">Descripción</label>
+<textarea id="descripcion" name="descripcion" required placeholder="Describi lo que tenes para donar"></textarea>
+    <button type="submit">Enviar donación</button>  
+       </form>
+    </div>
+  </section>
+</div>
+<div class="footer">
+    <div class="contacto">
+      <div class="item"><img src="img/mail.png" alt=""><span>donate.app@gmail.com</span></div>
+      <div class="item"><img src="img/facebook.png" alt=""><span>@donate.app</span></div>
+      <div class="item"><img src="img/instagram.png" alt=""><span>@donate.app</span></div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
