@@ -1,7 +1,7 @@
 ¿ Por que  Donate APP?
 
 Porque facilita la solidaridad digital y mejora la experiencia 
-de los usuarios conectando necesidades reales con quienes pueden ayudar
+de los usuarios, conectando necesidades reales con quienes pueden ayudar.
 Porque permite que la app funcione sin servidor y usa almacenamiento
 local para guardar datos. Porque agrega interacciones con animaciones y validaciones
 Porque es fácil de mantener y escalar con APIS en el futuro
@@ -23,23 +23,23 @@ facilitarle la navegación. Utilice atributos que permiten a mi página tener un
 veriamos en los móviles los textos más chicos y las cajas más angostas
 
  Explicación de cada etiqueta principal:
-<!DOCTYPE html> Define que el documento es HTML5.
-<html lang="es"> El idioma del sitio es español.
-<head> contiene metadatos, título y enlace al CSS.
-<meta charset="UTF-8"> Asegura que los caracteres especiales se vean bien.
-<meta name="viewport"...> Permite diseño adaptable a móviles.
-<title> Título que aparece en la pestaña del navegador.
-<link rel="stylesheet"> Enlaza el archivo de estilos CSS.
-<body> Contiene todo el contenido visible de la página.
-<div class="header"> Muestra una imagen en el encabezado.
-<div class="menu"> Incluye el menú de navegación.
-<nav> Agrupa los enlaces a otras páginas.
-<section class="hero"> Sección principal con título, texto y formulario.
-<form> Contiene los campos para que el usuario se registre.
-<label> y <input> Etiquetas y campos para completar datos personales.
-<button> Botón para enviar el formulario.
-<div class="footer"> Pie de página con redes sociales y contacto.
-<script src="main.js"> Enlaza un archivo JavaScript externo.
+< !DOCTYPE html> Define que el documento es HTML5.
+< html lang="es"> El idioma del sitio es español.
+< head> contiene metadatos, título y enlace al CSS.
+< meta charset="UTF-8"> Asegura que los caracteres especiales se vean bien.
+< meta name="viewport"...> Permite diseño adaptable a móviles.
+< title> Título que aparece en la pestaña del navegador.
+< link rel="stylesheet"> Enlaza el archivo de estilos CSS.
+< body> Contiene todo el contenido visible de la página.
+< div class="header"> Muestra una imagen en el encabezado.
+< div class="menu"> Incluye el menú de navegación.
+< nav> Agrupa los enlaces a otras páginas.
+< section class="hero"> Sección principal con título, texto y formulario.
+< form> Contiene los campos para que el usuario se registre.
+< label> y < input> Etiquetas y campos para completar datos personales.
+< button> Botón para enviar el formulario.
+< div class="footer"> Pie de página con redes sociales y contacto.
+< script src="main.js"> Enlaza un archivo JavaScript externo.
 
 
 El archivo estilos.css define el diseño visual completo de la aplicación:
