@@ -25,7 +25,7 @@ veriamos en los móviles los textos más chicos y las cajas más angostas
  Explicación de cada etiqueta principal:
 <!DOCTYPE html> Define que el documento es HTML5.
 <html lang="es"> El idioma del sitio es español.
-<head> → Contiene metadatos, título y enlace al CSS.
+<head> contiene metadatos, título y enlace al CSS.
 <meta charset="UTF-8"> Asegura que los caracteres especiales se vean bien.
 <meta name="viewport"...> Permite diseño adaptable a móviles.
 <title> Título que aparece en la pestaña del navegador.
