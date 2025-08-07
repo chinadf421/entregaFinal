@@ -30,8 +30,7 @@ Muestra y anima los contadores de impacto
 Validad los formularios de registro y donación
 Guarda datos en el navegador usando LocalStorage
 
-El archivo main.js le da vida a la aplicación
-controla los contadores, los formularios y datos locales
+El archivo main.js controla los contadores, los formularios y datos locales
 Se activa luego de que termina de cargar la página
 Mejora la experiencia del usuario
 Permite que la APP funcione sin servidor 
